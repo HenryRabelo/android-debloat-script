@@ -18,34 +18,34 @@ Right. With all of that out of the way, let's start with removing pre-installed 
 
 Be warned, it is intended that you use your phone without connecting to a Google Account, so features like Google Drive Backup were never intended to be working in the first place and will be purged properly. The script also purges Google Voice Search, to increase privacy, but can optionally be kept in a functional state. You should not, however, use voice search with a logged on account, as that would be extremely invasive to your privacy. You will be able to substitute the purged apps with privacy-respecting alternatives from F-Droid.
 
-This script will purge the following apps:
-• Google App (Keep this if voice search is desirable)
-• Google Chrome
-• Google Drive
-• Google Dialer
-• Google Contacts
-• Google Messages
-• Google Calendar
-• Google Clocks
-• Google Music
-• Google Photos
-• Google Movies
-• Google Lens
-• Google Duo
-• Google Maps (Can be substituted with Web App version)
-• Google Translate
-• Google Calculator (Believe it or not, this app has trackers. Yes, the freacking **calculator**.)
-• Google Wallpapers
-• Youtube
-• GMail
-• GBoard & plugins
-• Facebook & Amazon tracking
+This script will purge the following apps: \
+• Google App (Keep this if voice search is desirable) \
+• Google Chrome \
+• Google Drive \
+• Google Dialer \
+• Google Contacts \
+• Google Messages \
+• Google Calendar \
+• Google Clocks \
+• Google Music \
+• Google Photos \
+• Google Movies \
+• Google Lens \
+• Google Duo \
+• Google Maps (Can be substituted with Web App version) \
+• Google Translate \
+• Google Calculator (Believe it or not, this app has trackers. Yes, **the freaking calculator**.) \
+• Google Wallpapers \
+• Youtube \
+• GMail \
+• GBoard & plugins \
+• Facebook & Amazon tracking \
 
-This script will also purge the following apps, that provide functionalities:
-• Google Partner Setup (It is used to provide some Google integration with select apps. We won't be using Google integration. Also, it consumes mad ammounts of battery.)
-• Google Drive Contacts Sync (It is used to upload your contacts to Google. Google Drive Syncronization will not be used.)
-• Google Drive Apps Sync (It is used to upload SMS, settings, etc to Google Drive. Google Drive Syncronization will not be used.)
-• Google Play Store (Google Play Store will not be used.)
-• Google Play Store Feedback (It is used to provide feedback to Google Play Store. Google Play Store will not be used.)
-• Google Voice Recognition (Keep those if voice search is desirable.)
-• Android SIM ToolKit (I mean, the only function of this one is to pester you about SIM Card advertising. You can keep this one if being buggered is desirable.)
+This script will also purge the following apps, that provide functionalities: \
+• Google Partner Setup (It is used to provide some Google integration with select apps. We won't be using Google integration. Also, it consumes mad ammounts of battery.) \
+• Google Drive Contacts Sync (It is used to upload your contacts to Google. Google Drive Syncronization will not be used.) \
+• Google Drive Apps Sync (It is used to upload SMS, settings, etc to Google Drive. Google Drive Syncronization will not be used.) \
+• Google Play Store (Google Play Store will not be used.) \
+• Google Play Store Feedback (It is used to provide feedback to Google Play Store. Google Play Store will not be used.) \
+• Google Voice Recognition (Keep those if voice search is desirable.) \
+• Android SIM ToolKit (I mean, the only function of this one is to pester you about SIM Card advertising. You can keep this one if being buggered is desirable.) \

@@ -73,8 +73,8 @@ After the script is run, you will need to install the following apps from F-Droi
 • Simple Calculator (Alternatively: Material Calculator) \
 • Librem Mail (Alternatively: FairMail) \
 • Librem Chat (Alternatively: Telegram / Signal) \
-• Librem Social \
-• Librem Tunnel \
+• Librem Social (Optional) \
+• Librem Tunnel (Optional) \
 • Aurora Store \
 • Fennec Firefox (Alternatively: DuckDuckGo Privacy Browser / Brave Browser) \
 • PDF Viewer Plus \

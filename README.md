@@ -56,7 +56,7 @@ This script will also purge the following apps, that provide functionalities: \
 • Google One Time Init (It is used to start Google Services after your phones first setup. Reportedly, the phone may present issues after its removal. Disabling its internet access through NetGuard should suffice. Proceed at your own discretion.) \
 • Android System WebView (It is used by many apps to provide web browser / services functionality. It should not be removed due to its core system functionality. Proceed at your own discretion.) \
 • Device Health Services (It is used to provide adaptable battery functionality. It should not be removed due to its extreme usefulness. Disabling its internet access through NetGuard will suffice.) \
-• Text to Speech (It is used to transform text output into sound output. It probably should not be removed, since it is used for accessibility options. Proceed at your own discretion.)
+• Text to Speech (It is used to transform text output into sound output. It probably should not be removed, since it is used for accessibility options. Proceed at your own discretion.) \
 • Print Service Recommendation (Little information was found on this packages functionality. As such, it probably should not be removed. Proceed at your own discretion.)
 
 ##### After Debloating:
@@ -71,7 +71,7 @@ After the script is run, you will need to install the following apps from F-Droi
 • NetGuard
 
 ###### Changing Android Configurations:
-It is also important to change the following Android Configurations:
+It is also important to change the following Android Configurations: \
 • Turn off Mobile Web, Bluetooth and Location Services, turning them back on only when needed \
 • Battery: Adaptable Battery = ON (Optional, but highly recommended) \
 • Screen: Adaptable Brightness = ON (optional, but highly recommended) \
@@ -84,7 +84,7 @@ It is also important to change the following Android Configurations:
 • Google - Location - Advanced - Google location precision: Better location precision = OFF
 
 ###### Editing Android Quick Settings Menu:
-I personally recommend editing your quick settings menu to the following order, to allow better control to what settings are enabled at all times:
+I personally recommend editing your quick settings menu to the following order, to allow better control to what settings are enabled at all times: \
 • Wi-Fi \
 • Mobile network \
 • Bluetooth \
@@ -96,7 +96,7 @@ I personally recommend editing your quick settings menu to the following order, 
 • Flashlight
 
 ###### Wrapping up:
-To wrap up this guide, you should do the following procedures:
+To wrap up this guide, you should do the following procedures: \
 • Turn off USB Debugging and Developer Mode, to regain the Blackbox-like sate of your phone \
 • Opt out of carrier SMS Advertising and Telemarketing (Availability dependant on the country) \
 • Opt out of Debit Card and Credit Card data collection \

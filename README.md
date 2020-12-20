@@ -70,7 +70,7 @@ After the script is run, you will need to install the following apps from F-Droi
 • Simple Clocks \
 • Simple Music (Alternatively: Metro Music Player) \
 • Simple Gallery \
-• Simple Calculator (Alternatively: Material Calculator) \
+• Simple Calculator (Alternatively: Xlythe Calculator) \
 • Librem Mail (Alternatively: FairEMail) \
 • Librem Chat (Alternatively: Telegram / Signal) \
 • Librem Social (Optional) \

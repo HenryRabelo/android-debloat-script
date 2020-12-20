@@ -1,7 +1,7 @@
 ## Android Debloat Script (Soft Purge)
 #### Script to de-bloat Android devices, while keeping some practical functionality.
 
-This script is intended to remove invasive software from Android devices, granting some level of privacy and decreasing battery consumption, while keeping Quality-of-Life software and stability. I will explain my reasoning as to what software is kept or removed, according to my research.
+This script is intended to remove invasive software from Android devices without rooting your device, granting some level of privacy and decreasing battery consumption, while keeping Quality-of-Life software and stability. Doing this should not void your warranty, as the changes are applied only to your user and are not permanent. I will explain my reasoning as to what software is kept or removed, according to my research.
 
 ##### Intro:
 Before we start, I would like to state that this script is intended to be used on devices that have **close-to-stock ROMs**, such as Pixel or Motorola devices. This script **was** tested on a **Motorola** device. Why Motorola, you ask? While a Pixel device would be ideal for debloating **and** installing custom ROMs, Pixels are not readly available on markets outside of the US. As such, I am making this script thinking of brands that are easily found on most countries.
@@ -53,7 +53,51 @@ This script will also purge the following apps, that provide functionalities: \
 • Android SIM ToolKit (I mean, the only function of this one is to pester you about SIM Card advertising. You can keep this one if being buggered is desirable.)
 
 ###### Kept:
-• Google One Time Init (It is used to start Google Services after your phones first setup. Repportedly, the phone may present issues after its removal. Disabling its internet access through NetGuard should suffice. Proceed at your own discretion.) \
+• Google One Time Init (It is used to start Google Services after your phones first setup. Reportedly, the phone may present issues after its removal. Disabling its internet access through NetGuard should suffice. Proceed at your own discretion.) \
 • Android System WebView (It is used by many apps to provide web browser / services functionality. It should not be removed due to its core system functionality. Proceed at your own discretion.) \
 • Device Health Services (It is used to provide adaptable battery functionality. It should not be removed due to its extreme usefulness. Disabling its internet access through NetGuard will suffice.) \
+• Text to Speech (It is used to transform text output into sound output. It probably should not be removed, since it is used for accessibility options. Proceed at your own discretion.)
 • Print Service Recommendation (Little information was found on this packages functionality. As such, it probably should not be removed. Proceed at your own discretion.)
+
+##### After Debloating:
+###### Installing Base Apps:
+After the script is run, you will need to install the following apps from F-Droid: \
+• OpenBoard (At which point you can uninstall GBoard completely) \
+• Simple Mobile Tools \
+• Librem One Apps \
+• Aurora Store \
+• Fennec Firefox \
+• PDF Viewer Plus \
+• NetGuard
+
+###### Changing Android Configurations:
+It is also important to change the following Android Configurations:
+• Turn off Mobile Web, Bluetooth and Location Services, turning them back on only when needed \
+• Battery: Adaptable Battery = ON (Optional, but highly recommended) \
+• Screen: Adaptable Brightness = ON (optional, but highly recommended) \
+• Security and Location - Lockscreen Preferences - On lock screen: Hide confidential content = YES \
+• Security and Location: Show passwords = OFF \
+• Accounts - Google: Remove Account = YES \
+• Google - Advertisements: Opt out of advertisement personalization = ON \
+• Google - Advertisements: Redefine publicity code = YES \
+• Google - Backup: Make Google Drive backups = OFF \
+• Google - Location - Advanced - Google location precision: Better location precision = OFF
+
+###### Editing Android Quick Settings Menu:
+I personally recommend editing your quick settings menu to the following order, to allow better control to what settings are enabled at all times:
+• Wi-Fi \
+• Mobile network \
+• Bluetooth \
+• Location \
+• Do not disturb \
+• Airplane mode \
+• Power Savings \
+• Automatic rotation \
+• Flashlight
+
+###### Wrapping up:
+To wrap up this guide, you should do the following procedures:
+• Turn off USB Debugging and Developer Mode, to regain the Blackbox-like sate of your phone \
+• Opt out of carrier SMS Advertising and Telemarketing (Availability dependant on the country) \
+• Opt out of Debit Card and Credit Card data collection \
+• Reboot your device once more

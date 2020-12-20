@@ -37,8 +37,8 @@ This script will purge the following apps: \
 • Google Calculator (Believe it or not, this app has trackers. Yes, **the freaking calculator**.) \
 • Google Wallpapers (Can be substituted with Unsplash web bookmark) \
 • Youtube (Can be substituted with F-Droid Newpipe repository) \
-• GMail (Can be substituted with Librem Mail) \
-• GBoard & plugins (Can be substituted with OpenBoard) \
+• GMail \
+• GBoard & plugins \
 • Facebook & Amazon tracking
 
 ##### Functionality App Debloating:
@@ -63,10 +63,20 @@ This script will also purge the following apps, that provide functionalities: \
 ###### Installing Base Apps:
 After the script is run, you will need to install the following apps from F-Droid: \
 • OpenBoard (At which point you can uninstall GBoard completely) \
-• Simple Mobile Tools \
-• Librem One Apps \
+• Simple Dialer \
+• Simple Contacts \
+• Simple SMS Messenger (Alternatively: Signal) \
+• Simple Calendar (Alternatively: Etar Calendar) \
+• Simple Clocks (Alternatively: Alarmio) \
+• Simple Music (Alternatively: Metro Music Player) \
+• Simple Gallery \
+• Simple Calculator (Alternatively: Material Calculator) \
+• Librem Mail (Alternatively: FairMail) \
+• Librem Chat (Alternatively: Telegram / Signal) \
+• Librem Social (Optional) \
+• Librem Tunnel (Optional) \
 • Aurora Store \
-• Fennec Firefox \
+• Fennec Firefox (Alternatively: DuckDuckGo Privacy Browser) \
 • PDF Viewer Plus \
 • NetGuard
 
@@ -74,7 +84,7 @@ After the script is run, you will need to install the following apps from F-Droi
 It is also important to change the following Android Configurations: \
 • Turn off Mobile Web, Bluetooth and Location Services, turning them back on only when needed \
 • Battery: Adaptable Battery = ON (Optional, but highly recommended) \
-• Screen: Adaptable Brightness = ON (optional, but highly recommended) \
+• Screen: Adaptable Brightness = ON (Optional, but highly recommended) \
 • Security and Location - Lockscreen Preferences - On lock screen: Hide confidential content = YES \
 • Security and Location: Show passwords = OFF \
 • Accounts - Google: Remove Account = YES \

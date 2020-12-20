@@ -98,6 +98,7 @@ I personally recommend editing your quick settings menu to the following order, 
 ###### Wrapping up:
 To wrap up this guide, you should do the following procedures: \
 • Turn off USB Debugging and Developer Mode, to regain the Blackbox-like sate of your phone \
-• Opt out of carrier SMS Advertising and Telemarketing (Availability dependant on the country) \
+• Reboot your device once more \
+• Opt out of carrier SMS Advertising and Telemarketing (Availability dependant on your country) \
 • Opt out of Debit Card and Credit Card data collection \
-• Reboot your device once more
+• When using your phone daily, try not to let your battery fall below 30% and do not charge it above 80%. When you need to charge it, aways take off your phone case, if you have one, and turn your phone off for charging. With fast charging technologies, you won't need to wait longer than 30 minutes with your phone turned off. Keeping all this in mind will help your battery last much longer.

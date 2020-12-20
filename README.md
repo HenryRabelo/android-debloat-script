@@ -66,15 +66,15 @@ After the script is run, you will need to install the following apps from F-Droi
 • Simple Dialer \
 • Simple Contacts \
 • Simple SMS Messenger (Alternatively: Signal) \
-• Simple Calendar (Alternatively: Etar Calendar) \
-• Simple Clocks (Alternatively: Alarmio) \
+• Simple Calendar \
+• Simple Clocks \
 • Simple Music (Alternatively: Metro Music Player) \
 • Simple Gallery \
 • Simple Calculator (Alternatively: Material Calculator) \
-• Librem Mail (Alternatively: FairMail) \
+• Librem Mail \
 • Librem Chat (Alternatively: Telegram / Signal) \
-• Librem Social (Optional) \
-• Librem Tunnel (Optional) \
+• Librem Social \
+• Librem Tunnel \
 • Aurora Store \
 • Fennec Firefox (Alternatively: DuckDuckGo Privacy Browser) \
 • PDF Viewer Plus \

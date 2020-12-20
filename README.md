@@ -54,7 +54,7 @@ This script will also purge the following apps, that provide functionalities:
 
 ###### Kept:
 - Google One Time Init (It is used to start Google Services after your phones first setup. Reportedly, the phone may present issues after its removal. Disabling its internet access through NetGuard should suffice. Proceed at your own discretion.)
-- Android System WebView (It is used by many apps to provide web browser / services functionality. It should not be removed due to its core system functionality. Proceed at your own discretion.)
+- Android System WebView (It is used by many apps to provide web browser / services functionality. It should not be removed due to its core system functionality.)
 - Device Health Services (It is used to provide adaptable battery functionality. It should not be removed due to its extreme usefulness. Disabling its internet access through NetGuard will suffice.)
 - Text to Speech (It is used to transform text output into sound output. It probably should not be removed, since it is used for accessibility options. Proceed at your own discretion.)
 - Print Service Recommendation (Little information was found on this packages functionality. As such, it probably should not be removed. Proceed at your own discretion.)

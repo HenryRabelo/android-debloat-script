@@ -71,12 +71,12 @@ After the script is run, you will need to install the following apps from F-Droi
 • Simple Music (Alternatively: Metro Music Player) \
 • Simple Gallery \
 • Simple Calculator (Alternatively: Material Calculator) \
-• Librem Mail \
+• Librem Mail (Alternatively: FairMail) \
 • Librem Chat (Alternatively: Telegram / Signal) \
 • Librem Social \
 • Librem Tunnel \
 • Aurora Store \
-• Fennec Firefox (Alternatively: DuckDuckGo Privacy Browser) \
+• Fennec Firefox (Alternatively: DuckDuckGo Privacy Browser / Brave Browser) \
 • PDF Viewer Plus \
 • NetGuard
 

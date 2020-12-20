@@ -94,7 +94,7 @@ It is also important to change the following Android Configurations:
 - Google - Location - Advanced - Google location precision: Better location precision = OFF
 
 ###### Editing Android Quick Settings Menu:
-I personally recommend editing your quick settings menu to the following order, to allow better control to what settings are enabled at all times:
+I personally recommend editing your quick settings menu in the following order, to allow better control as to what settings are enabled at all times:
 - Wi-Fi
 - Mobile network
 - Bluetooth

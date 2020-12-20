@@ -33,7 +33,7 @@ This script will purge the following apps: \
 • Google Lens \
 • Google Duo \
 • Google Maps (Can be substituted with Web App version) \
-• Google Translate (Can be substituted with Web App version) \
+• Google Translate (Can be substituted with web bookmark) \
 • Google Calculator (Believe it or not, this app has trackers. Yes, **the freaking calculator**.) \
 • Google Wallpapers (Can be substituted with Unsplash web bookmark) \
 • Youtube (Can be substituted with F-Droid Newpipe repository) \
@@ -45,8 +45,8 @@ This script will purge the following apps: \
 ###### Removed:
 This script will also purge the following apps, that provide functionalities: \
 • Google Partner Setup (It is used to provide some Google integration with select apps. We won't be using Google integration. Also, it consumes mad ammounts of battery.) \
-• Google Drive Contacts Sync (It is used to upload your contacts to Google. Google Drive Syncronization will not be used.) \
-• Google Drive Apps Sync (It is used to upload SMS, settings, etc to Google Drive. Google Drive Syncronization will not be used.) \
+• Google Contacts Sync Adapter (It is used to upload your contacts to Google. Google Drive Syncronization will not be used.) \
+• Google Backup Transport (It is used to upload SMS, settings, etc to Google Drive. Google Drive Syncronization will not be used.) \
 • Google Play Store (Google Play Store will not be used.) \
 • Google Play Store Feedback (It is used to provide feedback to Google Play Store. Google Play Store will not be used.) \
 • Google Voice Recognition (Keep those if voice search is desirable.) \
@@ -97,7 +97,7 @@ I personally recommend editing your quick settings menu to the following order, 
 
 ###### Wrapping up:
 To wrap up this guide, you should do the following procedures: \
-• Turn off USB Debugging and Developer Mode, to regain the Blackbox-like sate of your phone \
+• Turn off USB Debugging and Developer Mode, to regain the BlackBox-like sate of your phone \
 • Reboot your device once more \
 • Opt out of carrier SMS Advertising and Telemarketing (Availability dependant on your country) \
 • Opt out of Debit Card and Credit Card data collection \

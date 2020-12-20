@@ -1,8 +1,7 @@
 #!/bin/bash
 #
-### Computer Pre-Requirements: Install ADB and WGet on Computer
+### Computer Pre-Requirements: Install ADB and WGet on computer
 ### Phone Pre-Requirements: Enable Developer Mode and USB Debugging
-### Process Pre-Requirements: Connect Phone to Computer and run 'adb devices'
 #
 wget --https-only -O org.f-droid.apk https://f-droid.org/F-Droid.apk
 #
@@ -49,8 +48,6 @@ adb shell pm uninstall --user 0 com.google.android.apps.wallpaper
 adb shell pm uninstall --user 0 com.google.android.youtube
 ## GMail:
 adb shell pm uninstall --user 0 com.google.android.gm
-## GBoard:
-#adb shell pm uninstall --user 0 com.google.android.inputmethod.latin
 ## GBoard Plugins:
 adb shell pm uninstall --user 0 com.google.android.inputmethod.korean
 adb shell pm uninstall --user 0 com.google.android.inputmethod.japanese
@@ -67,9 +64,9 @@ adb shell pm uninstall --user 0 com.amazon.mShop.android.shopping
 ### Functionality:
 ## Google Partner Setup:
 adb shell pm uninstall --user 0 com.google.android.partnersetup
-## Google Drive Contacts Sync:
+## Google Contacts Sync Adapter:
 adb shell pm uninstall --user 0 com.google.android.syncadapters.contacts
-## Google Drive Apps Sync:
+## Google Backup Transport:
 adb shell pm uninstall --user 0 com.google.android.backuptransport
 ## Google Play Store:
 adb shell pm uninstall --user 0 com.android.vending
@@ -82,10 +79,10 @@ adb shell pm uninstall --user 0 com.android.hotwordenrollment.okgoogle
 ## Android SIM ToolKit:
 adb shell pm uninstall --user 0 com.android.stk
 #
-### To Reinstall App:
+### To reinstall app:
 #adb shell cmd package install-existing --user 0 com.android.stk
 #
-### Install F-Droid Apps:
+### Install F-Droid apps:
 ## OpenBoard
 ## Simple Mobile Tools
 ## Librem One Apps
@@ -109,7 +106,7 @@ adb shell pm uninstall --user 0 com.android.stk
 ## Google - Backup: Make Google Drive backups = OFF
 ## Google - Location - Advanced - Google location precision: Better location precision = OFF
 #
-### Edit Quick Settings Menu Order:
+### Edit quick settings menu order:
 ## Wi-Fi
 ## Mobile network
 ## Bluetooth
@@ -120,7 +117,7 @@ adb shell pm uninstall --user 0 com.android.stk
 ## Automatic rotation
 ## Flashlight
 #
-### After the Phone Reboots, Turn off USB Debugging and Developer Mode and Opt out of Carrier SMS Advertisements
+### After phone reboots, turn off USB Debugging and Developer Mode. Opt out of Carrier SMS Advertising
 #
 adb reboot
 #

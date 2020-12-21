@@ -82,7 +82,11 @@ After the script is run, you will need to install the following apps from F-Droi
 - NetGuard
 
 ###### Blocking App Network Traffic:
-After installing your apps, we should block some of the network traffic through NetGuard. Before we do that, open the NetGuard App and go through the setup process. After that, change the NetGuard setting: Configurations - Advanced options - Manage system apps = ON. If the NetGuard app view becomes overwhelming, we can always filter out system apps, leaving only user installed apps. The apps that should have network access blocked are:
+
+After installing your apps, we should block some of the network traffic through NetGuard. Before we do that, open the NetGuard App and go through the setup process. After that, change the NetGuard setting: Configurations - Advanced options - Manage system apps = ON. If the NetGuard app view becomes overwhelming, we can always filter out system apps, leaving only user installed apps.
+
+The apps that should have network access blocked are:
+
 - Face unlock agent
 - Google One Time Init
 - Google launcher

@@ -32,8 +32,8 @@ This script will purge the following apps:
 - Google Movies
 - Google Lens
 - Google Duo
-- Google Maps (Can be substituted with Web App version)
-- Google Translate (Can be substituted with web bookmark)
+- Google Maps (Can be substituted with QWant Maps Web App / Google Maps Web App)
+- Google Translate (Can be substituted with Bing Translate Web Bookmark / Google Translate Web Bookmark)
 - Google Calculator (Believe it or not, this app has trackers. Yes, **the freaking calculator**.)
 - Google Wallpapers (Can be substituted with Unsplash web bookmark)
 - Youtube (Can be substituted with F-Droid Newpipe repository)
@@ -51,6 +51,7 @@ This script will also purge the following apps, that provide functionalities:
 - Google Play Store Feedback (It is used to provide feedback to Google Play Store. Google Play Store will not be used.)
 - Google Voice Recognition (Keep those if voice search is desirable.)
 - Android SIM ToolKit (I mean, the only function of this one is to pester you about SIM Card advertising. You can keep this one if being buggered is desirable.)
+- Any app that you find suitable. Be careful when dealing with system apps, as that could impair normal phone functioning.
 
 ###### Kept:
 - Google One Time Init (It is used to start Google Services after your phones first setup. Reportedly, the phone may present issues after its removal. Disabling its internet access through NetGuard should suffice. Proceed at your own discretion.)
@@ -79,6 +80,19 @@ After the script is run, you will need to install the following apps from F-Droi
 - Fennec Firefox (Alternatively: DuckDuckGo Privacy Browser / Brave Browser)
 - PDF Viewer Plus
 - NetGuard
+
+###### Blocking App Network Traffic:
+After installing your apps, we should block some of the network traffic through NetGuard. Before we do that, open the NetGuard App and go through the setup process. After that, change the NetGuard setting: Configurations - Advanced options - Manage system apps = ON. If the NetGuard app view becomes overwhelming, we can always filter out system apps, leaving only user installed apps. The apps that should have network access blocked are:
+- Face unlock agent
+- Google One Time Init
+- Google launcher
+- Camera app
+- Files app
+- Contacts app (Just to be sure)
+- Gallery app (Just to be sure)
+- Keyboard app (Just to be sure)
+- Calculator app (Just to be sure)
+- Any app that you find suitable. Generally, any app that can function without internet access should have its internet access blocked. Be careful when dealing with system apps, as that could impair normal phone functioning.
 
 ###### Changing Android Configurations:
 It is also important to change the following Android Configurations:

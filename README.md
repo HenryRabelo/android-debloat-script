@@ -78,6 +78,8 @@ After the script is run, you will need to install the following apps from F-Droi
 - Librem Social (Optional)
 - Librem Tunnel (Optional)
 - Fennec Firefox (Alternatively: DuckDuckGo Privacy Browser / Brave Browser)
+- Readrops (Optional)
+- OSMAnd (Alternatively: Magic Earth / HERE WeGo / QWant Maps Web App / Google Maps Web App)
 - PDF Viewer Plus
 - NetGuard
 

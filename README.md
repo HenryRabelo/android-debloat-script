@@ -92,7 +92,7 @@ After installing your apps, we should block some of the network traffic through 
 - Gallery app (Just to be sure)
 - Keyboard app (Just to be sure)
 - Calculator app (Just to be sure)
-- Any app that you find suitable. Generally, any app that can function without internet access should have its internet access blocked. Be careful when dealing with system apps, as that could impair normal phone functioning.
+- Any app that you find suitable. Generally, apps that can function without internet access should have their internet access blocked. Be careful when dealing with system apps, as that could impair normal phone functioning.
 
 ###### Changing Android Configurations:
 It is also important to change the following Android Configurations:

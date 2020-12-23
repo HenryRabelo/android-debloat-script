@@ -93,6 +93,7 @@ Let's use the filter menu to hide disabled apps and apps that do not have networ
 - Unblock apps that usually need network access to function, such as:
   - CaptivePortalLogin
   - Google Play Services
+  - Google Services Framework
   - Carrier Services
   - Browsers
   - App stores

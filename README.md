@@ -85,20 +85,33 @@ After the script is run, you will need to install the following apps from F-Droi
 
 ###### Blocking App Network Traffic:
 
-After installing your apps, we should block some of the network traffic through NetGuard. Before we do that, open the NetGuard App and go through the setup process. After that, change the NetGuard setting: Configurations - Advanced options - Manage system apps = ON. If the NetGuard app view becomes overwhelming, we can always filter out system apps, leaving only user installed apps.
+After installing your apps, we should block some of the network traffic through NetGuard. Before we do that, open the NetGuard App and go through the setup process. After that, change the NetGuard setting: Configurations - Advanced options - Manage system apps = ON. If the NetGuard app view becomes overwhelming, we can always use the filter menu to filter out apps, leaving only user installed apps.
 
-The apps that should have network access blocked are:
+Let's use the filter menu to hide disabled apps and apps that do not have network access. From the remaining apps, you should:
 
-- Face unlock agent
-- Google One Time Init
-- Google launcher
-- Camera app
-- Files app
-- Contacts app (Just to be sure)
-- Gallery app (Just to be sure)
-- Keyboard app (Just to be sure)
-- Calculator app (Just to be sure)
-- Any app that you find suitable. Generally, apps that can function without internet access should have their internet access blocked. Be careful when dealing with system apps, as that could impair normal phone functioning.
+- Block network access for all apps
+- Unblock apps that usually need network access to function, such as:
+  - CaptivePortalLogin
+  - Google Play Services
+  - Carrier Services
+  - Browsers
+  - App stores
+  - Music streaming services
+  - GPS Apps
+  - Climate apps
+  - Accessibility apps
+  - Apps that have "Print" or "Printer" in their name
+  - Apps that have "Download" or "Downloader" in their name
+  - Apps that have "Update" in their name
+  - Apps that have "NFC" in their name
+  - Apps that have "Host" in their name
+  - Apps that have "Server" in their name
+  - Apps that have "Filter" in their name
+  - Apps that have "DNS" in their name
+  - Apps that have "Proxy" in their name
+- You can disable network access for any app that you find suitable. Generally, apps that can function without internet access should have their internet access blocked. Be careful when dealing with system apps, as that could impair normal phone functioning.
+- You can enable a network access logger from NetGuard's "Advanced options" menu. From there, you can see what apps request network access most frequently.
+- Keep in mind that if you have blocked system apps, you should test your phone to check if it is functioning properly. If it fails to connect to any service while using it daily, remember that it could be because of those changes.
 
 ###### Changing Android Configurations:
 It is also important to change the following Android Configurations:

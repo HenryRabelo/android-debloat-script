@@ -76,13 +76,17 @@ adb shell pm uninstall --user 0 com.google.android.feedback
 adb shell pm uninstall --user 0 com.android.hotwordenrollment.tgoogle
 adb shell pm uninstall --user 0 com.android.hotwordenrollment.xgoogle
 adb shell pm uninstall --user 0 com.android.hotwordenrollment.okgoogle
+#
+adb shell pm list packages android
 ## Android SIM ToolKit:
 adb shell pm uninstall --user 0 com.android.stk
 ## Carrier Customization:
 adb shell pm uninstall --user 0 com.android.carrierdefaultapp
+## Google Partners Bookmarks
+adb shell pm uninstall --user 0 com.android.providers.partnerbookmarks
 #
 ### To reinstall app:
-#adb shell cmd package install-existing --user 0 com.android.stk
+#adb shell cmd package install-existing --user 0 com.android.providers.partnerbookmarks
 #
 ### Install F-Droid apps:
 ## OpenBoard

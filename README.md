@@ -51,24 +51,27 @@ This script will also purge the following apps, that provide functionalities:
 - Google Play Store Feedback (It is used to provide feedback to Google Play Store. Google Play Store will not be used.)
 - Google Voice Recognition (Keep those if voice search is desirable.)
 - Android SIM ToolKit (I mean, the only function of this one is to pester you about SIM Card advertising. You can keep this one if being buggered is desirable.)
+- CarrierDefaultApp (Reportedly, it is used to perform carrier actions upon signal. No point in allowing that.)
 - Any app that you find suitable. Be careful when dealing with system apps, as that could impair normal phone functioning.
 
 ###### Kept:
-- Google One Time Init (It is used to start Google Services after your phones first setup. Reportedly, the phone may present issues after its removal. Disabling its internet access through NetGuard should suffice. Proceed at your own discretion.)
-- Android System WebView (It is used by many apps to provide web browser / services functionality. It should not be removed due to its core system functionality.)
+- Google Play Services (It is used by many apps to provide functionalities. It should not be removed if apps require its functionality.)
+- Google Services Framework (It is used by many apps to provide functionalities. It should not be removed if apps require its functionality.)
+- Carrier Services (It is used to provide SMS extra functionality. It should not be removed due to its functionality.)
+- Android System WebView (It is used by many apps to provide web browser / services functionality. It should not be removed due to its functionality.)
 - Device Health Services (It is used to provide adaptable battery functionality. It should not be removed due to its extreme usefulness. Disabling its internet access through NetGuard will suffice.)
-- Text to Speech (It is used to transform text output into sound output. It probably should not be removed, since it is used for accessibility options. Proceed at your own discretion.)
-- Print Service Recommendation (Little information was found on this packages functionality. As such, it probably should not be removed. Proceed at your own discretion.)
+- Android Accessibility Pack (It is used to provide accessibility options. It should not be removed due to its functionality.)
+- Text to Speech (It is used to transform text output into sound output. It probably should not be removed, since it is used for accessibility options.)
 
 ##### After Debloating:
 ###### Installing Base Apps:
-After the script is run, you will need to install the following apps from F-Droid:
+After the script is run, you will need to install the following apps from F-Droid or Aurora Store:
 - OpenBoard (At which point you can uninstall GBoard completely)
-- Aurora Store
+- Aurora Store (Installed at F-Droid)
 - Simple Dialer
 - Simple Contacts
 - Simple SMS Messenger (Alternatively: Signal)
-- Simple Calendar
+- Simple Calendar (Alternatively: Etar Calendar)
 - Simple Clocks
 - Simple Music (Alternatively: Retro Music Player)
 - Simple Gallery
@@ -77,8 +80,8 @@ After the script is run, you will need to install the following apps from F-Droi
 - Librem Chat (Alternatively: Telegram / Signal)
 - Librem Social (Optional)
 - Librem Tunnel (Optional)
-- Fennec Firefox (Alternatively: DuckDuckGo Privacy Browser / Brave Browser)
 - Readrops (Optional)
+- Fennec Firefox (Alternatively: DuckDuckGo Privacy Browser / Brave Browser)
 - OSMAnd (Alternatively: Magic Earth / HERE WeGo / Google Maps Web App / QWant Maps Web App)
 - PDF Viewer Plus
 - NetGuard
@@ -97,7 +100,7 @@ Let's use the filter menu to hide disabled apps and apps that do not have networ
   - Carrier Services
   - Browsers
   - App stores
-  - Music streaming services
+  - Streaming services
   - GPS Apps
   - Climate apps
   - Accessibility apps
@@ -107,8 +110,8 @@ Let's use the filter menu to hide disabled apps and apps that do not have networ
   - Apps that have "NFC" in their name
   - Apps that have "Host" in their name
   - Apps that have "Server" in their name
-  - Apps that have "Filter" in their name
   - Apps that have "DNS" in their name
+  - Apps that have "Filter" in their name
   - Apps that have "Proxy" in their name
 - You can disable network access for any app that you find suitable. Generally, apps that can function without internet access should have their internet access blocked. Be careful when dealing with system apps, as that could impair normal phone functioning.
 - You can enable a network access logger from NetGuard's "Advanced options" menu. From there, you can see what apps request network access most frequently.

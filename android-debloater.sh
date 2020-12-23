@@ -78,6 +78,8 @@ adb shell pm uninstall --user 0 com.android.hotwordenrollment.xgoogle
 adb shell pm uninstall --user 0 com.android.hotwordenrollment.okgoogle
 ## Android SIM ToolKit:
 adb shell pm uninstall --user 0 com.android.stk
+## Carrier Customization:
+adb shell pm uninstall --user 0 com.android.carrierdefaultapp
 #
 ### To reinstall app:
 #adb shell cmd package install-existing --user 0 com.android.stk

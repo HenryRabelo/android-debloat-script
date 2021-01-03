@@ -51,7 +51,7 @@ This script will also purge the following apps, that provide functionalities:
 - Google Play Store Feedback (It is used to provide feedback to Google Play Store. Google Play Store will not be used.)
 - Google Voice Recognition (Keep those if voice search is desirable.)
 - Android SIM ToolKit (I mean, the only function of this one is to pester you about SIM Card advertising. You can keep this one if being buggered is desirable.)
-- Carrier Default App (Reportedly, it is used to perform carrier actions upon signal. No point in allowing that.)
+- Carrier Remote Customization (Reportedly, it is used to perform carrier actions upon signal. No point in allowing that.)
 - Google Partners Bookmarks (Bookmarks from Google partners on Chrome. No point in keeping it.)
 - Motorola specific additions such as Lenovo account, remote access, demo mode, China regulation apps.
 - Any app that you find suitable. Be careful when dealing with system apps, as that could impair normal phone functioning.

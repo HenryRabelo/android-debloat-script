@@ -39,7 +39,6 @@ This script will purge the following apps:
 - Youtube (Can be substituted with F-Droid Newpipe repository)
 - GMail
 - GBoard & plugins
-- Facebook & Amazon tracking
 
 ##### Functionality App Debloating:
 ###### Removed:
@@ -53,6 +52,7 @@ This script will also purge the following apps, that provide functionalities:
 - Android SIM ToolKit (I mean, the only function of this one is to pester you about SIM Card advertising. You can keep this one if being buggered is desirable.)
 - Carrier Default App (Reportedly, it is used to perform carrier actions upon signal. No point in allowing that.)
 - Google Partners Bookmarks (Bookmarks from Google partners on Chrome. No point in keeping it.)
+- Facebook & Amazon tracking
 - Motorola specific additions such as Lenovo account, remote access, demo mode, China regulation apps.
 - Any app that you find suitable. Be careful when dealing with system apps, as that could impair normal phone functioning.
 

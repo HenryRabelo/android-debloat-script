@@ -51,8 +51,9 @@ This script will also purge the following apps, that provide functionalities:
 - Google Play Store Feedback (It is used to provide feedback to Google Play Store. Google Play Store will not be used.)
 - Google Voice Recognition (Keep those if voice search is desirable.)
 - Android SIM ToolKit (I mean, the only function of this one is to pester you about SIM Card advertising. You can keep this one if being buggered is desirable.)
-- CarrierDefaultApp (Reportedly, it is used to perform carrier actions upon signal. No point in allowing that.)
+- Carrier Default App (Reportedly, it is used to perform carrier actions upon signal. No point in allowing that.)
 - Google Partners Bookmarks (Bookmarks from Google partners on Chrome. No point in keeping it.)
+- Motorola specific additions such as Lenovo account, remote access, demo mode, China regulation apps.
 - Any app that you find suitable. Be careful when dealing with system apps, as that could impair normal phone functioning.
 
 ###### Kept:
@@ -60,8 +61,8 @@ This script will also purge the following apps, that provide functionalities:
 - Google Services Framework (It is used by many apps to provide functionalities. It should not be removed if apps require its functionality.)
 - Carrier Services (It is used to provide SMS extra functionality. It should not be removed due to its functionality.)
 - Android System WebView (It is used by many apps to provide web browser / services functionality. It should not be removed due to its functionality.)
-- Device Health Services (It is used to provide adaptable battery functionality. It should not be removed due to its extreme usefulness. Disabling its internet access through NetGuard will suffice.)
-- Android Accessibility Pack (It is used to provide accessibility options. It should not be removed due to its functionality.)
+- Device Health Services (It is used to provide adaptable battery functionality. It should not be removed due to its usefulness. Disabling its internet access through NetGuard will suffice.)
+- Android Accessibility Pack (It is used to provide accessibility options. It should not be removed due to its accessibility functionality.)
 - Text to Speech (It is used to transform text output into sound output. It probably should not be removed, since it is used for accessibility options.)
 
 ##### After Debloating:
@@ -72,9 +73,9 @@ After the script is run, you will need to install the following apps from F-Droi
 - Simple Dialer
 - Simple Contacts
 - Simple SMS Messenger (Alternatively: Signal)
-- Simple Calendar (Alternatively: Etar Calendar)
+- Simple Calendar
 - Simple Clocks
-- Simple Music (Alternatively: Retro Music Player)
+- Simple Music (Alternatively: Retro Music Player / Apple Music)
 - Simple Gallery
 - Simple Calculator (Alternatively: Xlythe Calculator)
 - Librem Mail (Alternatively: FairEMail)
@@ -82,8 +83,9 @@ After the script is run, you will need to install the following apps from F-Droi
 - Librem Social (Optional)
 - Librem Tunnel (Optional)
 - Readrops (Optional)
-- Fennec Firefox (Alternatively: DuckDuckGo Privacy Browser / Brave Browser)
-- OSMAnd (Alternatively: Magic Earth / HERE WeGo / Google Maps Web App / QWant Maps Web App)
+- Fennec Firefox (Alternatively: Brave Browser / DuckDuckGo Privacy Browser)
+- OSMAnd (Alternatively: QWant Maps Web App / Google Maps Web App / Magic Earth / HERE WeGo)
+- SyncThing (Alternatively: NextCloud)
 - PDF Viewer Plus
 - NetGuard
 
@@ -149,4 +151,4 @@ To wrap up this guide, you should do the following procedures:
 - Reboot your device once more
 - Opt out of carrier SMS Advertising and Telemarketing (Availability dependant on your country)
 - Opt out of Debit Card and Credit Card data collection
-- When using your phone daily, try not to let your battery fall below 30% and do not charge it above 80%. When you need to charge it, aways take off your phone case, if you have one, and turn your phone off for charging. With fast charging technologies, you won't need to wait longer than 30 minutes with your phone turned off. Keeping all this in mind will help your battery last much longer.
+- When using your phone daily, try not to let your battery fall below 30% and do not charge it above 80%. When you need to charge it, aways take off your phone case, if you have one, and turn your phone off for charging. With fast charging technologies, you won't need to wait longer than 30 minutes with your phone turned off. Keeping all this in mind will help your battery last longer.

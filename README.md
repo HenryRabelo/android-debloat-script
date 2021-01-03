@@ -67,9 +67,9 @@ This script will also purge the following apps, that provide functionalities:
 
 ##### After Debloating:
 ###### Installing Base Apps:
-After the script is run, it is strongly recommended that you install the following apps from F-Droid, or its alternatives, which are generally found on Aurora Store:
+After the script is run, it is strongly recommended that you install the following apps from F-Droid, or its alternatives on Aurora Store:
 - OpenBoard (At which point you can uninstall GBoard completely)
-- Aurora Store (Installed at F-Droid)
+- Aurora Store (Installed on F-Droid)
 - Simple Dialer
 - Simple Contacts
 - Simple SMS Messenger (Alternatively: Signal)

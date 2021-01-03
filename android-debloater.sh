@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-### Computer Pre-Requirements: Install ADB and WGet on computer
+### Computer Pre-Requirements: Install ADB and WGet on computer. Connect Phone to Computer with charging cable.
 ### Phone Pre-Requirements: Enable Developer Mode and USB Debugging
 #
 wget --https-only -O org.f-droid.apk https://f-droid.org/F-Droid.apk
@@ -53,6 +53,23 @@ adb shell pm uninstall --user 0 com.google.android.inputmethod.korean
 adb shell pm uninstall --user 0 com.google.android.inputmethod.japanese
 adb shell pm uninstall --user 0 com.google.android.apps.inputmethod.zhuyin
 #
+adb shell pm list packages android
+## Android SIM ToolKit:
+adb shell pm uninstall --user 0 com.android.stk
+## Carrier Remote Customization:
+adb shell pm uninstall --user 0 com.android.carrierdefaultapp
+## Google Partners Bookmarks
+adb shell pm uninstall --user 0 com.android.providers.partnerbookmarks
+#
+adb shell pm list packages motorola
+adb shell pm uninstall --user 0 com.lenovo.lsf.user
+adb shell pm uninstall --user 0 com.lmi.motorola.rescuesecurity
+adb shell pm uninstall --user 0 com.motorola.android.provisioning
+adb shell pm uninstall --user 0 com.motorola.demo
+adb shell pm uninstall --user 0 com.motorola.demo.env
+adb shell pm uninstall --user 0 com.motorola.ccc.notification
+adb shell pm uninstall --user 0 com.motorola.ccc.devicemanagement
+#
 adb shell pm list packages facebook
 adb shell pm uninstall --user 0 com.facebook.appmanager
 adb shell pm uninstall --user 0 com.facebook.system
@@ -76,14 +93,6 @@ adb shell pm uninstall --user 0 com.google.android.feedback
 adb shell pm uninstall --user 0 com.android.hotwordenrollment.tgoogle
 adb shell pm uninstall --user 0 com.android.hotwordenrollment.xgoogle
 adb shell pm uninstall --user 0 com.android.hotwordenrollment.okgoogle
-#
-adb shell pm list packages android
-## Android SIM ToolKit:
-adb shell pm uninstall --user 0 com.android.stk
-## Carrier Customization:
-adb shell pm uninstall --user 0 com.android.carrierdefaultapp
-## Google Partners Bookmarks
-adb shell pm uninstall --user 0 com.android.providers.partnerbookmarks
 #
 ### To reinstall app:
 #adb shell cmd package install-existing --user 0 com.android.providers.partnerbookmarks
@@ -112,18 +121,7 @@ adb shell pm uninstall --user 0 com.android.providers.partnerbookmarks
 ## Google - Backup: Make Google Drive backups = OFF
 ## Google - Location - Advanced - Google location precision: Better location precision = OFF
 #
-### Edit quick settings menu order:
-## Wi-Fi
-## Mobile network
-## Bluetooth
-## Location
-## Do not disturb
-## Airplane mode
-## Power Savings
-## Automatic rotation
-## Flashlight
-#
-### After phone reboots, turn off USB Debugging and Developer Mode. Opt out of Carrier SMS Advertising
+### After phone reboots, turn off USB Debugging and Developer Mode. Opt out of Carrier SMS Advertising.
 #
 adb reboot
 #

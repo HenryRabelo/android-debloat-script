@@ -56,7 +56,7 @@ adb shell pm uninstall --user 0 com.google.android.apps.inputmethod.zhuyin
 adb shell pm list packages android
 ## Android SIM ToolKit:
 adb shell pm uninstall --user 0 com.android.stk
-## Carrier Remote Customization:
+## Carrier Default App:
 adb shell pm uninstall --user 0 com.android.carrierdefaultapp
 ## Google Partners Bookmarks
 adb shell pm uninstall --user 0 com.android.providers.partnerbookmarks

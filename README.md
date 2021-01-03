@@ -85,7 +85,7 @@ After the script is run, you will need to install the following apps from F-Droi
 - Readrops (Optional)
 - Fennec Firefox (Alternatively: Brave Browser / DuckDuckGo Privacy Browser)
 - OSMAnd (Alternatively: QWant Maps Web App / Google Maps Web App / Magic Earth / HERE WeGo)
-- SyncThing (Alternatively: NextCloud)
+- NextCloud (Alternatively: SyncThing)
 - NetGuard
 - PDF Viewer Plus
 
@@ -153,3 +153,4 @@ To wrap up this guide, you should do the following procedures:
 - Opt out of carrier SMS Advertising and Telemarketing (Availability dependant on your country)
 - Opt out of Debit Card and Credit Card data collection
 - When using your phone daily, try not to let your battery fall below 30% and do not charge it above 80%. When you need to charge it, aways take off your phone case, if you have one, and turn your phone off for charging. With fast charging technologies, you won't need to wait longer than 30 minutes with your phone turned off. Keeping all this in mind will help your battery last longer.
+- Keep in mind that Digital Minimalism is also the key to Digital Privacy. Try to keep as few apps installed as possible and aways be mindful as to where those apps are sending your data, or if they are indeed.

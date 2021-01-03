@@ -86,8 +86,8 @@ After the script is run, you will need to install the following apps from F-Droi
 - Fennec Firefox (Alternatively: Brave Browser / DuckDuckGo Privacy Browser)
 - OSMAnd (Alternatively: QWant Maps Web App / Google Maps Web App / Magic Earth / HERE WeGo)
 - SyncThing (Alternatively: NextCloud)
-- PDF Viewer Plus
 - NetGuard
+- PDF Viewer Plus
 
 ###### Blocking App Network Traffic:
 
@@ -104,6 +104,7 @@ Let's use the filter menu to hide disabled apps and apps that do not have networ
   - Browsers
   - App stores
   - Streaming services
+  - E-Mail Apps
   - GPS Apps
   - Climate apps
   - Accessibility apps

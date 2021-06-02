@@ -76,16 +76,19 @@ After the script is run, it is strongly recommended that you install the followi
 - Simple Calendar
 - Simple Clocks
 - Simple Music (Alternatively: Retro Music Player / Apple Music)
+- Simple Voice Recorder
 - Simple Gallery
 - Simple Calculator (Alternatively: Xlythe Calculator)
 - Librem Mail (Alternatively: FairEMail)
 - Librem Chat (Alternatively: Telegram / Signal)
 - Librem Social (Optional)
 - Librem Tunnel (Optional)
+- Geometric Weather (Optional)
 - Readrops (Optional)
+- Tasks.org (Optional)
 - Fennec Firefox (Alternatively: Brave Browser / DuckDuckGo Privacy Browser)
 - OSMAnd (Alternatively: QWant Maps Web App / Google Maps Web App / Magic Earth / HERE WeGo)
-- NextCloud (Alternatively: SyncThing)
+- NextCloud (Alternatively: SyncThing / DAVx5)
 - NetGuard
 - PDF Viewer Plus
 

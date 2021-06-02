@@ -82,7 +82,6 @@ After the script is run, it is strongly recommended that you install the followi
 - Librem Mail (Alternatively: FairEMail)
 - Librem Chat (Alternatively: Telegram / Signal)
 - Librem Social (Optional)
-- Librem Tunnel (Optional)
 - Geometric Weather (Optional)
 - Readrops (Optional)
 - Tasks.org (Optional)

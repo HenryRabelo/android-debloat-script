@@ -130,6 +130,8 @@ It is also important to change the following Android configurations, if they are
 - Battery: Adaptable Battery = ON (Optional, but highly recommended)
 - Screen: Adaptable Brightness = ON (Optional, but highly recommended)
 - Security and Location - Lockscreen Preferences - On lock screen: Hide confidential content = YES
+- Security and Location - Location - Search - Wi-Fi search = OFF (Disable this, unless you know of a particular feature that needs this premission.)
+- Security and Location - Location - Search - Bluetooth search = OFF
 - Security and Location: Show passwords = OFF
 - Security and Location - Device administrator apps - Examine the specific features included and turn off unecessary ones.
 - Security and Location - Trust Agents: Turn off each one, unless you know of a particular feature that needs this premission.

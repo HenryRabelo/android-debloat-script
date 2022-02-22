@@ -59,7 +59,7 @@ This script will also purge the following apps, that provide functionalities:
 ###### Kept:
 - Google Play Services (It is used by many apps to provide functionalities. It should not be removed if apps require its functionality.)
 - Google Services Framework (It is used by many apps to provide functionalities. It should not be removed if apps require its functionality.)
-- Carrier Services (It is used to provide SMS extra functionality. It should not be removed due to its functionality.)
+- Carrier Services (It is used to provide SMS extra functionality. It should not be removed if its functionality is desirable.)
 - Android System WebView (It is used by many apps to provide web browser / services functionality. It should not be removed due to its functionality.)
 - Device Health Services (It is used to provide adaptable battery functionality. It should not be removed due to its usefulness. Disabling its internet access through NetGuard will suffice.)
 - Android Accessibility Pack (It is used to provide accessibility options. It should not be removed due to its accessibility functionality.)
@@ -124,7 +124,7 @@ Let's use the filter menu to hide disabled apps and apps that do not have networ
 - Keep in mind that if you have blocked system apps, you should test your phone to check if it is functioning properly. If it fails to connect to any service while using it daily, remember that it could be because of those changes.
 
 ###### Changing Android Configurations:
-It is also important to change the following Android configurations (you can search for the keywords in the Settings searchbox to find these):
+It is also important to change the following Android configurations, if they are available (you can search for the keywords in the Settings searchbox to find these):
 - Turn off Mobile Web, Bluetooth and Location Services, turning them back on only when needed
 - Apps and Notifications - App permissions - Body Sensors: Turn off each one, unless you know of a particular feature that needs this premission.
 - Battery: Adaptable Battery = ON (Optional, but highly recommended)
@@ -139,6 +139,8 @@ It is also important to change the following Android configurations (you can sea
 - Google - Backup: Make Google Drive backups = OFF
 - Google - Location - Advanced - Google location precision: Better location precision = OFF
 - Developer Options - Quick settings developer tiles - Sensors Off = ON (This will give you a quick settings tile to turn off your phone sensors. It is recommended that you only turn them on when needed for a specific application.)
+- Developer Options - Wi-Fi scan throttling = ON
+- Developer Options - Random MAC choice = ON
 
 ###### Editing Android Quick Settings Menu:
 I personally recommend editing your quick settings tiles in the following order, to allow better control as to what settings are enabled at all times:

@@ -124,20 +124,24 @@ Let's use the filter menu to hide disabled apps and apps that do not have networ
 - Keep in mind that if you have blocked system apps, you should test your phone to check if it is functioning properly. If it fails to connect to any service while using it daily, remember that it could be because of those changes.
 
 ###### Changing Android Configurations:
-It is also important to change the following Android Configurations:
+It is also important to change the following Android configurations (you can search for the keywords in the Settings searchbox to find these):
 - Turn off Mobile Web, Bluetooth and Location Services, turning them back on only when needed
+- Apps and Notifications - App permissions - Body Sensors: Turn off each one, unless you know of a particular feature that needs this premission.
 - Battery: Adaptable Battery = ON (Optional, but highly recommended)
 - Screen: Adaptable Brightness = ON (Optional, but highly recommended)
 - Security and Location - Lockscreen Preferences - On lock screen: Hide confidential content = YES
 - Security and Location: Show passwords = OFF
+- Security and Location - Device administrator apps - Examine the specific features included and turn off unecessary ones.
+- Security and Location - Trust Agents: Turn off each one, unless you know of a particular feature that needs this premission.
 - Accounts - Google: Remove Account = YES
 - Google - Advertisements: Opt out of advertisement personalization = ON
 - Google - Advertisements: Redefine publicity code = YES
 - Google - Backup: Make Google Drive backups = OFF
 - Google - Location - Advanced - Google location precision: Better location precision = OFF
+- Developer Options - Quick settings developer tiles - Sensors Off = ON (This will give you a quick settings tile to turn off your phone sensors. It is recommended that you only turn them on when needed for a specific application.)
 
 ###### Editing Android Quick Settings Menu:
-I personally recommend editing your quick settings menu in the following order, to allow better control as to what settings are enabled at all times:
+I personally recommend editing your quick settings tiles in the following order, to allow better control as to what settings are enabled at all times:
 - Wi-Fi
 - Mobile network
 - Bluetooth
@@ -150,7 +154,7 @@ I personally recommend editing your quick settings menu in the following order, 
 
 ###### Wrapping up:
 To wrap up this guide, you should do the following procedures:
-- Turn off USB Debugging and Developer Mode, to regain the BlackBox-like sate of your phone
+- Turn off USB Debugging, to regain the BlackBox-like sate of your phone
 - Reboot your device once more
 - Opt out of carrier SMS Advertising and Telemarketing (Availability dependant on your country)
 - Opt out of Debit Card and Credit Card data collection

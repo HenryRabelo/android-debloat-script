@@ -126,7 +126,12 @@ Let's use the filter menu to hide disabled apps and apps that do not have networ
 ###### Changing Android Configurations:
 It is also important to change the following Android configurations, if they are available (you can search for the keywords in the Settings searchbox to find these):
 - Turn off Mobile Web, Bluetooth and Location Services, turning them back on only when needed
+- Apps and Notifications - Google Play Services - Permissions: Turn off each one, unless you know of a particular feature that needs premissions.
+- Apps and Notifications - Google Carrier Services - Permissions: Turn off each one, unless you know of a particular feature that needs premissions.
 - Apps and Notifications - App permissions - Body Sensors: Turn off each one, unless you know of a particular feature that needs this premission.
+- Apps and Notifications - Special app access - Display over other apps: Turn off Google Play / Google Carrier Services permissions
+- Apps and Notifications - Special app access - Modify system settings: Turn off Google Play / Google Carrier Services permissions
+- Apps and Notifications - Special app access - Usage data access: Turn off Google Play / Google Carrier Services permissions
 - Battery: Adaptable Battery = ON (Optional, but highly recommended)
 - Screen: Adaptable Brightness = ON (Optional, but highly recommended)
 - Security and Location - Lockscreen Preferences - On lock screen: Hide confidential content = YES

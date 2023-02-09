@@ -38,7 +38,7 @@ This script will purge the following apps:
 - Google Wallpapers (Can be substituted with Unsplash web bookmark)
 - Youtube (Can be substituted with F-Droid Newpipe repository)
 - GMail
-- GBoard & plugins
+- GBoard plugins
 
 ##### Functionality App Debloating:
 ###### Removed:
@@ -46,12 +46,11 @@ This script will also purge the following apps, that provide functionalities:
 - Google Partner Setup (It is used to provide some Google integration with select apps. We won't be using Google integration. Also, it consumes mad ammounts of battery.)
 - Google Contacts Sync Adapter (It is used to upload your contacts to Google. Google Drive Syncronization will not be used.)
 - Google Backup Transport (It is used to upload SMS, settings, etc to Google Drive. Google Drive Syncronization will not be used.)
-- Google Play Store (Google Play Store will not be used.)
 - Google Play Store Feedback (It is used to provide feedback to Google Play Store. Google Play Store will not be used.)
-- Google Voice Recognition (Keep those if voice search is desirable.)
 - Android SIM ToolKit (I mean, the only function of this one is to pester you about SIM Card advertising. You can keep this one if being buggered is desirable.)
 - Carrier Default App (Reportedly, it is used to perform carrier actions upon signal. No point in allowing that.)
 - Google Partners Bookmarks (Bookmarks from Google partners on Chrome. No point in keeping it.)
+- Google Device Health Services (Depracated, impossible to update.)
 - Facebook & Amazon tracking
 - Motorola specific additions such as Lenovo account, remote access, demo mode, China regulation apps.
 - Any app that you find suitable. Be careful when dealing with system apps, as that could impair normal phone functioning.
@@ -59,18 +58,20 @@ This script will also purge the following apps, that provide functionalities:
 ###### Kept:
 - Google Play Services (It is used by many apps to provide functionalities. It should not be removed if apps require its functionality.)
 - Google Services Framework (It is used by many apps to provide functionalities. It should not be removed if apps require its functionality.)
-- Carrier Services (It is used to provide SMS extra functionality. It should not be removed if its functionality is desirable.)
+- Google Play Store (It is safer to disable Google Play Store manually rather than uninstall it, as some apps depend on it.)
+- Carrier Services (It is used to provide SMS extra functionality. Remove it if its functionality is unnecessary.)
 - Android System WebView (It is used by many apps to provide web browser / services functionality. It should not be removed due to its functionality.)
 - Device Health Services (It is used to provide adaptable battery functionality. It should not be removed due to its usefulness. Disabling its internet access through NetGuard will suffice.)
 - Android Accessibility Pack (It is used to provide accessibility options. It should not be removed due to its accessibility functionality.)
 - Text to Speech (It is used to transform text output into sound output. It probably should not be removed, since it is used for accessibility options.)
+- Google Voice Recognition (Remove those if voice search is unnecessary.)
 
 ##### After Debloating:
 ###### Installing Base Apps:
 After the script is run, it is strongly recommended that you install the following apps from F-Droid, or its alternatives on Aurora Store:
-- OpenBoard (At which point you can uninstall GBoard completely)
+- OpenBoard (If swipe typing is desirable, it is safe to use GBoard with it's network access revoked)
 - Aurora Store (Installed on F-Droid)
-- Simple Dialer
+- Simple Dialer (If spam call blocking is desirable, it would be better to keep or reinstall Google Dialer)
 - Simple Contacts
 - Simple SMS Messenger (Alternatively: Signal)
 - Simple Calendar
@@ -85,10 +86,11 @@ After the script is run, it is strongly recommended that you install the followi
 - Geometric Weather (Optional)
 - Readrops (Optional)
 - Tasks.org (Optional)
-- Fennec Firefox (Alternatively: Brave Browser / DuckDuckGo Privacy Browser)
+- Firefox Browser (Alternatively: Brave Browser)
 - OSMAnd (Alternatively: QWant Maps Web App / Google Maps Web App / Magic Earth / HERE WeGo)
 - NextCloud (Alternatively: SyncThing / DAVx5)
 - NetGuard
+- Shelter
 - PDF Viewer Plus
 
 ###### Blocking App Network Traffic:
@@ -122,6 +124,10 @@ Let's use the filter menu to hide disabled apps and apps that do not have networ
 - You can disable network access for any app that you find suitable. Generally, apps that can function without internet access should have their internet access blocked. Be careful when dealing with system apps, as that could impair normal phone functioning.
 - You can enable a network access logger from NetGuard's "Advanced options" menu. From there, you can see what apps request network access most frequently.
 - Keep in mind that if you have blocked system apps, you should test your phone to check if it is functioning properly. If it fails to connect to any service while using it daily, remember that it could be because of those changes.
+
+###### Creating a Work Profile for Isolation:
+
+After setting up Shelter, manually disable or uninstall for the work profile user (usually ID 10) the Google Play Services and Google Carrier Services. This may require disabling their work profile counterparts as Device Administrator apps. After disabling or uninstalling any / all Google Apps from the work profile, install F-Droid and Aurora Store on this profile and utilize it for Aurora Store apps, to utilize them without any communication with Google Play Services. Obviously, not all apps would work like that, so some apps would need to be installed on your main profile.
 
 ###### Changing Android Configurations:
 It is also important to change the following Android configurations, if they are available (you can search for the keywords in the Settings searchbox to find these):

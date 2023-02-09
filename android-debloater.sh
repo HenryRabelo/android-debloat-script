@@ -129,7 +129,7 @@ adb shell pm uninstall --user 0 com.google.android.backuptransport
 adb shell pm clear com.google.android.backuptransport
 ## Google Play Store:
 #adb shell pm uninstall --user 0 com.android.vending
-adb shell pm clear com.android.vending
+#adb shell pm clear com.android.vending
 ## Google Play Store Feedback:
 adb shell pm uninstall --user 0 com.google.android.feedback
 adb shell pm clear com.google.android.feedback
